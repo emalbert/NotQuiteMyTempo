@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url(../imgs/whiplash-bg.jpg);
+}
+
+.contenedor__letras {
+    display: flex;
+}
+
+.letras {
+    color: #fff;
+    font-size: 32px;
+    padding: 16px;
+    margin: 16px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 64px;
+}
+
+.sonido {
+    color: rgb(212, 191, 0);
+    font-size: 14px;
+}
+.letra-presionada {
+    border: 2px solid rgb(212, 191, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+}
